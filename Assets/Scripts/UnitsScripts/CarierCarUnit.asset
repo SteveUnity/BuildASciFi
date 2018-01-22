@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dfdcc7cacfa724f9515f5631978c89, type: 3}
+  m_Name: CarierCarUnit
+  m_EditorClassIdentifier: 
+  name: CarierCarUnit
+  model: {fileID: 0}
+  MaxHealth: 300
+  movingSpeed: 20
+  level: 1
+  properties:
+  - property: maxFuelCapacity
+    value: 20
+  - property: FuelUsagePerDistance
+    value: 1
+  - property: Resources Carying Capacity
+    value: 300
+  - property: Units Carying Capacity
+    value: 4
+  unitTask: 4

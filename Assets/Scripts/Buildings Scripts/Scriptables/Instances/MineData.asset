@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208e78471ca637b4db9aa4f8afe70265, type: 3}
+  m_Name: MineData
+  m_EditorClassIdentifier: 
+  name: Mine Building
+  models:
+  - {fileID: 1345273175378220, guid: 5315a4fee6a77c74b917029620d64935, type: 2}
+  maxHealth: 2000
+  maxWorkersCount: 6
+  requiresManager: 0
+  constructionTime: 30
+  buildingSize: {x: 12, y: 8}
+  resourcesConsumption:
+    Energy: 0
+    Fuel: 0
+    Metal: 0
+    Stone: 0
+  buildingCosts:
+    Energy: 100
+    Fuel: 20
+    Metal: 320
+    Stone: 120
+  properties:
+  - property: Production Rate
+    value: 12
+  - property: Capacity
+    value: 500

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208e78471ca637b4db9aa4f8afe70265, type: 3}
+  m_Name: StorageData
+  m_EditorClassIdentifier: 
+  name: Storage Building
+  models:
+  - {fileID: 1198782204265890, guid: 67bbcc4d901927247b75ac467f61c18f, type: 2}
+  maxHealth: 1000
+  maxWorkersCount: 3
+  requiresManager: 0
+  constructionTime: 20
+  buildingSize: {x: 8, y: 6}
+  resourcesConsumption:
+    Energy: 0
+    Fuel: 0
+    Metal: 0
+    Stone: 0
+  buildingCosts:
+    Energy: 0
+    Fuel: 200
+    Metal: 400
+    Stone: 350
+  properties:
+  - property: Capacity
+    value: 10000
